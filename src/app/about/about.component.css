@@ -1,0 +1,40 @@
+.gif {
+  height: 100px;
+  width: 100px;
+}
+
+.about {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-size: cover;
+}
+
+.content_box {
+  height: 100%;
+  flex: 1.8;
+}
+
+.img_box {
+  background: url(../../assets/hacking.gif);
+  background-size: contain;
+  height: 100%;
+  flex: 1.2;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+span {
+  color: red;
+}

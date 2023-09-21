@@ -1,0 +1,38 @@
+/* Home Component */
+.profile_img {
+  width: 300px;
+  height: 300px;
+  border: 100%;
+  border-radius: 50%;
+  border: 4px red solid;
+}
+
+.container {
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-image: url("../../assets/img.avif");
+  background-size: cover;
+  width: 90%;
+  margin: 40px 0;
+}
+
+.content_box {
+  height: 100%;
+  flex: 1.8;
+  padding: 30px;
+}
+
+.img_box {
+  height: 100%;
+  flex: 1.2;
+}
+
+.social_logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  padding: 0 20px 0 0;
+}

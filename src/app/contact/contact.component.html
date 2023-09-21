@@ -1,0 +1,63 @@
+<section class="contact" id="my_contact">
+  <h2 style="text-align: center; padding-top: 20px">Get in Touch</h2>
+
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img
+          draggable="false"
+          src="../../assets/contact.png"
+          alt=""
+          style="height: 400px"
+        />
+      </div>
+      <form id="contact-form">
+        <div class="form-group">
+          <div class="field">
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              style="color: red"
+              required
+              [(ngModel)]="user_name"
+              (ngModelChange)="valueChange($event)"
+            />
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="field">
+            <input
+              type="text"
+              name="email"
+              placeholder="Email"
+              style="color: red"
+              required
+            />
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="field">
+            <input
+              type="text"
+              name="phone"
+              placeholder="Phone"
+              style="color: red"
+              required
+            />
+          </div>
+          <div class="field">
+            <input
+              type="text"
+              name="phone"
+              placeholder="Message"
+              style="color: red"
+              required
+            />
+          </div>
+        </div>
+        <p>
+          Entered Name:<span style="color: red">{{ user_name }}</span>
+        </p>
+      </form>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,18 @@
+<div class="container" id="home">
+  <div class="content_box">
+    <h1 style="color: red; font-size: 35px">Hello folks,</h1>
+    <h1 style="color: red; font-size: 45px">I'm Anukool Rathi</h1>
+    <button class="btn" (click)="clickSocial()">Connect with me</button>
+    <div style="display: flex; margin: 30px 0" *ngIf="isClicked == true">
+      <div *ngFor="let logo of logos">
+        <a href="{{ logo.link }}" target="_blank"
+          ><img src="../assets/{{ logo.img }}" class="social_logo"
+        /></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="img_box">
+    <!-- <img src="../../assets/linkedin_dp.jpg" class="profile_img" /> -->
+  </div>
+</div>
